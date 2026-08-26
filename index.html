@@ -1,31 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira Aula de CSS - Biologia - Corpo Humano</title>
- </head>
-<body>
-    <header class="topo">
-  <h1 class="logo">Explorando o Corpo Humano</h1>
-  <nav class="menu">
-    <a href="#s1">Introdução</a>
-    <a href="#s2">Sistemas do Corpo</a>
-    <a href="#s3">Curiosidades</a>
-  </nav>
-</header>
-<main>
-  <section id="s1"><h2>Introdução</h2>...</section>
-  <section id="s2"><h2>Sistemas do Corpo</h2>
-    <div class="cards">
-      <div class="card"><h3>Sistema Circulatório</h3><p>Transporta oxigênio e nutrientes.</p></div>
-      <div class="card"><h3>Sistema Nervoso</h3><p>Comanda pensamentos e reflexos.</p></div>
-      <div class="card"><h3>Sistema Digestório</h3><p>Transforma alimentos em energia.</p></div>
-    </div>
-  </section>
-  <section id="s3"><h2>Curiosidades</h2>...</section>
-</main>
-<footer class="rodape">© Aula CSS · Turma A</footer>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segunda Aula de CSS - Biologia - Corpo Humano</title>
+  <link rel ="stylesheet" href="style.css">
+
+</head>
+
+<body id="top">
+  <header class="topo">
+    <h1 class="logo">Explorando o Corpo Humano</h1>
+    <nav class="menu">
+      <a href="#s1">Introdução</a>
+      <a href="#s2">Sistemas do Corpo</a>
+      <a href="#s3">Curiosidades</a>
+      <!--Adicione mais itens no menu-->
+    </nav>
+  </header>
+  <main>
+    <!--Adicione novas seções aqui-->
+    <section id="s1">
+      <h2>Introdução</h2>
+      <p>O corpo humano é formado por diversos sistemas que trabalham juntos para nos manter vivos e saudáveis.</p>
+    </section>
+    <section id="s2">
+      <h2>Sistemas do Corpo</h2>
+      <!--Adicione mais cards aqui-->
+      <div class="cards">
+        <div class="card">
+          <h3>Sistema Circulatório</h3>
+          <p>Transporta oxigênio e nutrientes.</p>
+          <img src="img/sistema-circulatorio.png" alt="Sistema Circulatório">
+        </div>
+        <div class="card">
+          <h3>Sistema Nervoso</h3>
+          <p>Comanda pensamentos e reflexos.</p>
+          <img src="img/sistema-nervoso.png" alt="Sistema Nervoso">
+        </div>
+        <div class="card">
+          <h3>Sistema Digestório</h3>
+          <p>Transforma alimentos em energia.</p>
+          <img src="img/sistema-digestivo.png" alt="Sistema Digestório">
+        </div>
+      </div>
+    </section>
+    <section id="s3">
+      <h2>Curiosidades</h2>
+      <p>O coração bate cerca de 100 mil vezes por dia, bombeando sangue para todo o corpo.</p>
+    </section>
+  </main>
+  <footer class="rodape">© Aula CSS · Turma A Tarde · Feito por: MJ.A></footer>
+
+  <a href="#top" class="botao-topo" title="Voltar ao topo">↑</a>
 
 </body>
+
 </html>
