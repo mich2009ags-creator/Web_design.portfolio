@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0fa;
+    transition: 0.3s;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 150px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5c3685;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c3fa0;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
