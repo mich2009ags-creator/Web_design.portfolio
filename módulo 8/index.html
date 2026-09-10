@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1 id="titulo">Meu Painel Interativo</h1>
+
+        <p id="mensagem">
+            Clique nos botoes para interagir com a pagina!
+        </p>
+
+        <section class="botoes">
+
+            <button id="btnTitulo">
+                Mudar titulo
+            </button>
+
+            <button id="btnCor">
+                Mudar cor
+            </button>
+
+        </section>
+
+        <section class="contador">
+
+            <h2>Contador</h2>
+
+            <p id="numero">0</p>
+
+            <button id="btnAdicionar">
+                +1
+            </button>
+
+            <button id="btnDiminuir">
+                -1
+            </button>
+
+        </section>
+
+        <section class="nome">
+
+            <h2>Digite seu nome</h2>
+
+            <input
+                type="text"
+                id="nomeInput"
+                placeholder="Digite seu nome"
+            >
+
+            <button id="btnNome">
+                Enviar
+            </button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
